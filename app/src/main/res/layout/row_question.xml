@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1F32"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+
+
+
+
+                <TextView
+                    android:id="@+id/tv_question"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/button_clolor"
+                    android:freezesText="true"
+                    android:gravity="start"
+                    android:padding="15dp"
+                    android:text="1.Choose the letter A, B, C, or D to indicate the word that differs from the other three in the position of the primary stress in each of the following questions:"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/tv_option1"
+
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/defaul_option"
+                    android:freezesText="true"
+                    android:padding="20dp"
+                    android:text="câu  trả lời " />
+
+                <TextView
+                    android:id="@+id/tv_option2"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/defaul_option"
+                    android:freezesText="true"
+                    android:padding="20dp"
+                    android:text="câu  trả lời " />
+
+                <TextView
+                    android:id="@+id/tv_option3"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+
+                    android:background="@drawable/defaul_option"
+                    android:freezesText="true"
+                    android:padding="20dp"
+                    android:text="câu  trả lời " />
+
+                <TextView
+                    android:id="@+id/tv_option4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/defaul_option"
+                    android:freezesText="true"
+                    android:padding="20dp"
+                    android:text=" " />
+
+
+
+
+
+
+
+
+</LinearLayout>
