@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Toast
 import com.poly.test.activity.GradeOneActivity
 import com.poly.test.activity.MainActivity
+import com.poly.test.activity.SignupActivity
 
 fun Context.toast(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
@@ -14,5 +15,5 @@ fun Context.toast(message: String) {
 
 }
 fun Context.intent() {
-    startActivity(Intent(this, MainActivity::class.java))
+    startActivity(Intent(this, SignupActivity::class.java))
 }
